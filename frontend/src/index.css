@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-cream text-gray-800;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-forest text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-moss transition-colors disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-secondary {
+    @apply bg-white text-forest border border-forest px-5 py-2.5 rounded-lg font-semibold hover:bg-pale transition-colors;
+  }
+  .btn-gold {
+    @apply bg-gold text-forest px-5 py-2.5 rounded-lg font-semibold hover:opacity-90 transition-opacity;
+  }
+  .card {
+    @apply bg-white border border-gray-200 rounded-xl p-5 shadow-sm;
+  }
+  .input {
+    @apply w-full border border-gray-300 rounded-lg px-3 py-2.5 focus:outline-none focus:ring-2 focus:ring-sage focus:border-transparent text-sm;
+  }
+  .label {
+    @apply block text-sm font-semibold text-forest mb-1;
+  }
+  .badge {
+    @apply inline-block px-2.5 py-0.5 rounded-full text-xs font-bold;
+  }
+  .badge-collector   { @apply bg-blue-100 text-blue-700; }
+  .badge-aggregator  { @apply bg-yellow-100 text-yellow-700; }
+  .badge-processor   { @apply bg-purple-100 text-purple-700; }
+  .badge-manufacturer { @apply bg-green-100 text-green-700; }
+  .badge-completed   { @apply bg-sage text-forest; }
+  .badge-active      { @apply bg-yellow-100 text-yellow-800; }
+}

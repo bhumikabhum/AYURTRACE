@@ -1,0 +1,11 @@
+{
+  "name": "ayurtrace",
+  "version": "1.0.0",
+  "description": "Blockchain-based botanical traceability for Ayurvedic herbs",
+  "scripts": {
+    "install:all": "npm install && cd blockchain && npm install && cd ../backend && npm install && cd ../frontend && npm install",
+    "dev:blockchain": "cd blockchain && npx hardhat node",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev"
+  }
+}

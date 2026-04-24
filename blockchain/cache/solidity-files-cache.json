@@ -1,0 +1,41 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\bhumi\\Downloads\\AyurTrace_FYP\\ayurtrace\\blockchain\\contracts\\HerbTrace.sol": {
+      "lastModificationDate": 1772719953206,
+      "contentHash": "ae53b5baf11614e01d1422ff60939865",
+      "sourceName": "contracts/HerbTrace.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "HerbTrace"
+      ]
+    }
+  }
+}
